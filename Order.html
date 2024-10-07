@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+     <div class="section-background">
+        
+             
+
+    <div class="form-container">
+        <form action="submit_form.php" method="post">
+            <button type="submit">Submit</button>
+            <!-- First Name -->
+            <div>
+                <label for="firstName"><b> First Name:</b> </label>
+                <input type="text" id="firstName" name="firstName" required>
+            </div>
+
+            <!-- Last Name -->
+            <div>
+                <label for="lastName"><b>Last Name: </b> </label>
+                <input type="text" id="lastName" name="lastName" required>
+            </div>
+
+            <!-- Email Address -->
+            <div>
+                <label for="email"><b>Email Address:</b></label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <!-- Phone Number -->
+            <div>
+                <label for="phoneNumber"><b>Phone Number:</b></label>
+                <input type="tel" id="phoneNumber" name="phoneNumber" pattern="[0-9]{10}" required>
+                <small>Format: 1234567890</small>
+            </div>
+
+            <!-- Property Address -->
+            <div class="full-width">
+                <label for="propertyAddress"><b>Property Address:</b></label>
+                <input type="text" id="propertyAddress" name="propertyAddress" required>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="full-width">
+                <button type="submit">GET OFFER</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+    <div class="center-text">
+        We buy homes in <b>Hampton Roads</b>. Get what your house is <b>worth</b>.
+    </div>
+
+
+    <div class="center-text">
+    <H1>  <b> How it Works </b></H1>
+</div>
+
+  
+
+
+
+<div class="container">
+    <div class="box">
+        <img src="images/image_1.jpg" alt="Contact We Buy Houses" id="large-image">
+        <div>
+            <h2>Contact We Buy Houses</h2>
+            <p>Provide your property details and contact information.</p>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="images/image_2.jpg" alt="Schedule a Visit" id="large-image">
+        <div>
+            <h2>Schedule a Visit</h2>
+            <p>Arrange a convenient time for us to view your property.</p>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="images/image_3.jpg" alt="Get our Cash Offer" id="large-image">
+        <div>
+            <h2>Get our Cash Offer</h2>
+            <p>Receive a fair cash offer with no obligation to accept.</p>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="images/image_4.jpg" alt="Sell it Fast and Easy" id="large-image">
+        <div>
+            <h2>Sell it Fast and Easy</h2>
+            <p>Close the deal quickly and get paid without any hassle.</p>
+        </div>
+    </div>
+</div>
+
+        
+    </body>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Customer Information Form</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f5f5f5;
+                color: #333;
+                padding: 20px;
+            }
+    
+            .customer-info-form {
+                background-color: white;
+                border-radius: 8px;
+                padding: 20px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                max-width: 600px;
+                margin: auto;
+            }
+    
+            .form-row {
+                display: flex;
+                margin-bottom: 15px;
+            }
+    
+            .form-column {
+                flex: 50%;
+                padding: 0 10px;
+            }
+    
+            .form-column label {
+                display: block;
+                margin-bottom: 5px;
+            }
+    
+            input[type="text"],
+            input[type="email"],
+            input[type="tel"] {
+                width: 100%;
+                padding: 10px;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+                box-sizing: border-box;
+            }
+    
+            .form-submit {
+                text-align: center;
+            }
+    
+            input[type="submit"] {
+                background-color: #007bff;
+                color: white;
+                border: none;
+                padding: 10px 20px;
+                border-radius: 4px;
+                cursor: pointer;
+                font-size: 1em;
+            }
+    
+            input[type="submit"]:hover {
+                background-color: #0056b3;
+            }
+        </style>
+    </head>
+    <body>
+    
+        <div class="customer-info-form">
+            <form>
+                <div class="form-row">
+                    <div class="form-column">
+                        <label for="firstName">First Name:</label>
+                        <input type="text" id="firstName" name="firstName">
+                    </div>
+                    <div class="form-column">
+                        <label for="lastName">Last Name:</label>
+                        <input type="text" id="lastName" name="lastName">
+                    </div>
+                </div>
+    
+                <div class="form-row">
+                    <div class="form-column">
+                        <label for="phoneNumber">Phone Number:</label>
+                        <input type="tel" id="phoneNumber" name="phoneNumber">
+                    </div>
+                    <div class="form-column">
+                        <label for="emailAddress">Email Address:</label>
+                        <input type="email" id="emailAddress" name="emailAddress">
+                    </div>
+                </div>
+    
+                <div class="form-row">
+                    <div class="form-column">
+                        <label for="streetAddress">Street Address:</label>
+                        <input type="text" id="streetAddress" name="streetAddress">
+                    </div>
+                    <div class="form-column">
+                        <label for="zipcode">Zipcode:</label>
+                        <input type="text" id="zipcode" name="zipcode">
+                    </div>
+                </div>
+    
+                <div class="form-row">
+                    <div class="form-column">
+                        <label for="city">City:</label>
+                        <input type="text" id="city" name="city">
+                    </div>
+                    <div class="form-column">
+                        <label for="state">State:</label>
+                        <input type="text" id="state" name="state">
+                    </div>
+                </div>
+    
+                <div class="form-submit">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    
+    </body>
+    </html>

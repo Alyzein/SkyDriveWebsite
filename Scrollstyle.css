@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.scroll-container {
+    width: 600px;        /* Set a fixed width */
+    height: 200px;       /* Set a fixed height */
+    overflow-y: scroll;  /* Enable vertical scrolling */
+    border: 2px solid #007BFF;  /* Border for the container */
+    border-radius: 8px;  /* Rounded corners */
+    padding: 10px;       /* Inner padding */
+    background-color: #f0f4f8;  /* Background color */
+}
+
+/* Custom Scroll Bar Styles */
+.scroll-container::-webkit-scrollbar {
+    width: 8px;           /* Width of the scrollbar */
+}
+
+.scroll-container::-webkit-scrollbar-track {
+    background: #f0f4f8;  /* Background of the track */
+    border-radius: 10px;  /* Rounded corners for the track */
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+    background: #007BFF;  /* Color of the scrollbar thumb */
+    border-radius: 10px;   /* Rounded corners for the thumb */
+}
+
+.scroll-container::-webkit-scrollbar-thumb:hover {
+    background: #0056b3;  /* Darker color on hover */
+}
+
+.content {
+    height: 400px;  /* Make the content taller to enable scrolling */
+}
